@@ -70,9 +70,10 @@ public class ApiTest {
 
     @BeforeEach
     public void begin() {
-        String propFileName = "iInterface.properties";
+        /*String propFileName = "iInterface.properties";
         Properties prop = loadFromEnvProperties(propFileName);
-        String host = prop.getProperty("server_addr", "www.weather.com.cn");
+        String host = prop.getProperty("server_addr", "www.weather.com.cn");*/
+        String host = "www.weather.com.cn";
         baseUrl = "http://" + host + "/data/cityinfo/";
     }
 
